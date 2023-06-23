@@ -82,6 +82,10 @@ body {
   text-align: center;
 }
 
+.content-container h2 {
+  margin: 0;
+}
+
 #about {
   display: flex;
   flex-direction: column;
@@ -109,9 +113,36 @@ body {
   font-size: large;
 }
 
+.institute-info,
+.company-info,
+.project-info {
+  background-color: rgba(10, 10, 10, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
 
+.institute-name,
+.company-name,
+.project-name {
+  font: larger;
+  font-weight: bolder;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: rgba(150, 149, 149, 0.2);
+}
 
-#education {}
+.branch-and-year-info,
+.role-info,
+.link-info {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
 
 #skills ul,
 .tech-stack {
@@ -167,6 +198,11 @@ footer div {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
   .global-container {
     display: block;
   }
