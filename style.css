@@ -73,7 +73,8 @@ body {
 .content-container h1,
 .content-container h2 {
   font-family: cursive;
-  margin-top: 0;
+  margin: 0;
+  margin-bottom: 10px;
   color: white;
 }
 
@@ -106,11 +107,10 @@ body {
 }
 
 #about p {
-  background-color: rgba(50, 50, 50, 0.8);
-  padding: 5px;
-  margin: 0px;
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 10px;
+  border-radius: 10px;
   text-align: center;
-  font-size: large;
 }
 
 .institute-info,
@@ -219,9 +219,24 @@ footer div {
     margin-top: 0px;
   }
 
+  .content-container {
+    border-radius: 10px;
+    padding: 10px;
+  }
+
   #about .image-container {
     width: 200px;
     height: 200px;
+  }
+
+  #about p {
+    background-color: rgba(50, 50, 50, 0.8);
+  }
+
+  .institute-info,
+  .company-info,
+  .project-info {
+    margin: 0;
   }
 
   #skills .tech-stack {
