@@ -104,6 +104,7 @@ body {
   background-image: url("images/profile_pic.jpg");
   background-size: cover;
   background-position: center;
+  filter: grayscale(0.5);
 }
 
 #about p {
